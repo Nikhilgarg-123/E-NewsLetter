@@ -19,7 +19,7 @@ async function mailer(sub,text_rec,receivers) {
 
 
   const info = await transporter.sendMail({
-    from: '"👻ADMIN 👻" <admin@ng.com>', // sender address
+    from: '"👻ADMIN 👻" <nitechnologys@gmail.com>', // sender address
     to: receivers, // list of receivers
     subject: sub, // Subject line
     text: text_rec, // plain text body
