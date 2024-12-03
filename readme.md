@@ -1,3 +1,16 @@
+
+
+# Add .env file
+```
+EMAIL= TURBOSMTP_email
+PASSWORD= TURBOSMTP_password
+PORT=3000
+MONGO_URI = "mongodb://127.0.0.1:27017/Newsletter"
+JWT_SECRET=dfsdfsdf  
+```
+
+
+
 ``` /e-newsletter
   /controllers
     user.controller.js
@@ -57,3 +70,7 @@ email.service.js: Handles email sending using nodemailer
 jsAuth.js: Handles JSON Web Token authentication
 # Database
 The application uses a MongoDB database to store user, news, and subscriber data.
+
+# for Mailing service 
+Configure the turboSMTP into the project
+
