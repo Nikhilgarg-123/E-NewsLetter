@@ -1,4 +1,4 @@
-`/e-newsletter
+```/e-newsletter
   /controllers
     user.controller.js
     news.controller.js
@@ -17,7 +17,7 @@
   /config
     db.js
   /server.js
-/package.json`
+/package.json```
 
 
 # E-Newsletter Project
